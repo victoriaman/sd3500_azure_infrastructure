@@ -20,6 +20,7 @@ variable "address_space" {
   default     = ["10.1.0.0/16"]
 }
 
+/*
 variable "nodepools" {
   description = "Nodepools for the Kubernetes cluster"
   type = map(object({
@@ -47,3 +48,4 @@ variable "nodepools" {
     }
   }
 }
+*/

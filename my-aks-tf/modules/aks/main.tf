@@ -47,6 +47,7 @@ resource "azurerm_kubernetes_cluster" "k8s" {
 
 # azurerm_kubernetes_cluster_node_pool to create k8s workers
 # official documentation https://registry.terraform.io/providers/hashicorp/azurerm/3.65.0/docs/resources/kubernetes_cluster_node_pool
+/*
 resource "azurerm_kubernetes_cluster_node_pool" "k8s-worker" {
   for_each = var.nodepools
 
@@ -63,3 +64,4 @@ resource "azurerm_kubernetes_cluster_node_pool" "k8s-worker" {
 
   node_labels = each.value.node_labels
 }
+*/

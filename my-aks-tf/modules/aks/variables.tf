@@ -42,6 +42,7 @@ variable "aks_tags" {
   default     = {}
 }
 
+/*
 variable "nodepools" {
   description = "Nodepools for the Kubernetes cluster"
   type = map(object({
@@ -69,3 +70,4 @@ variable "nodepools" {
     }
   }
 }
+*/

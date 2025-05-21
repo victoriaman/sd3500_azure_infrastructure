@@ -26,5 +26,5 @@ module "aks_with_node_group" {
   dns_prefix          = var.cluster_name
   resource_group_name = module.vnet_with_subnets.az_rg_name
   az_subnet_id        = module.vnet_with_subnets.az_subnet_id
-  nodepools           = var.nodepools
+  # nodepools           = var.nodepools
 }
